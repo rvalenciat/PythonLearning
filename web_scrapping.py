@@ -1,5 +1,6 @@
 import pandas as pd
 
+# this function cleans up the dataframe
 def clean_df(df):
     df = df[0]
     del df["Mapa administrativo"]
